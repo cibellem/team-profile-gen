@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c502137733.js"></script>
 </head>
 
@@ -17,15 +18,15 @@
 
     <div class="card" style="width: 18rem;">
 
-        <div class="card-body">
-            <h4>{{ name }}</h4>
-            <h5 class="card-title">Intern</h5>
+        <div class=" bg-danger card-body">
+            <h4 class="text-white">{{ name }}</h4>
+            <h5 class="card-title text-white ">Intern <i class="fas fa-graduation-cap"></i></h5>
 
         </div>
         <ul class="list-group list-group-flush">
-            <li class="list-group-item">{{ id }}</li>
-            <li class="list-group-item">{{ email }}</li>
-            <li class="list-group-item">{{ school }}</li>
+            <li class="list-group-item">Id: {{ id }}</li>
+            <li class="list-group-item">Email: {{ email }}</li>
+            <li class="list-group-item">School: {{ school }}</li>
         </ul>
 
     </div>
