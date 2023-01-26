@@ -1,4 +1,4 @@
-# team-profile-gen
+# CLI Team Profile Generator
 
 ### Descsription
 
