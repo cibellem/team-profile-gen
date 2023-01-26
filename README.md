@@ -1,12 +1,17 @@
-# CLI Team Profile Generator
+# CLI Team Roster Generator
 
-### Descsription
+### Description
 
-This is a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns.  The application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user. 
 
-### Technologies / Libraries /Frameworks 
+This is a Node.js based application that prompt users for information about a "team". Once the user finishes answering all the prompts a PDF file is generated through HTML templates displaying the team roaster. 
+ 
+
+## Technologies and concepts learned
+
  - Node.js
- - Boostrap
+ - NPM modules (inquirer, html-pdf)
+ - Classes
+ 
  
 ### Demo Gif
 
