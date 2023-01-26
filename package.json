@@ -16,6 +16,6 @@
     "html-pdf": "^2.2.0"
   },
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^29.4.1"
   }
 }
